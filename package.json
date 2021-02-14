@@ -1,0 +1,19 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "Homework 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZackTorretta/Assignment1.git"
+  },
+  "author": "Zachary Torretta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZackTorretta/Assignment1/issues"
+  },
+  "homepage": "https://github.com/ZackTorretta/Assignment1#readme"
+}
