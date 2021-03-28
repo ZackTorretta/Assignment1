@@ -2,7 +2,7 @@
   "name": "assignment1",
   "version": "1.0.0",
   "description": "Homework 1",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint src/**/*.js --fix"
   },
