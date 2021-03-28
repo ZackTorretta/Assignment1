@@ -1,11 +1,15 @@
 const express = require('express');
 
 const app = express();
+const dateOb = new Date();
 
-const id = 'Hello World';
 app.get('/', (req, res) => {
-  res.send(id);
-  // res.send('Hello World');
+  const hours = dateOb.getHours();
+  const objOne = JSON.stringify(hours);
+  const minutes = dateOb.getMinutes();
+  const objTwo = JSON.stringify(minutes);
+  const time = `${objOne}:${objTwo}`;
+  res.send(time);
 });
 
 app.listen(8080);
